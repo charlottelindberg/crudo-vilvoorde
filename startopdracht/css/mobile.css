@@ -6,5 +6,9 @@
 display: block;
 }
 
+.three-columns {
+    display: block;
+}
+
     /* einde van media query */
 }
