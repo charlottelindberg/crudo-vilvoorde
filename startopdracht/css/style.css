@@ -6,3 +6,58 @@ body {
   height: 100%;
   background: lightgray;
 }
+
+.hero {
+  background-color: #6dccaa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 80vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 5px solid red;
+}
+
+.social-shit {
+  background-color: royalblue;
+}
+
+.video-container {
+flex-grow: 1;
+}
+
+.d-flex {
+  display: flex;
+}
+
+nav {
+  background-color: salmon;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+/* margin-left: auto; is also ok */
+
+.two-columns > * {
+  flex: 1 1 50%;
+}
+
+.three-columns > * {
+  flex: 1 1 calc(100% / 3);
+}
+
+.four-columns > * {
+  flex: 1 1 25%;
+}
+
+.passie {
+  background-color: salmon;
+}
+
+.coaching {
+  background-color: springgreen;
+}
