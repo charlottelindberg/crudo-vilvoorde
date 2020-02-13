@@ -58,6 +58,15 @@ nav {
   background-color: salmon;
 }
 
+section {
+  padding: 4rem 0;
+}
+
 .coaching {
   background-color: springgreen;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
